@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_thai_hotline_app/models/data_list.dart';
+import 'package:flutter_thai_hotline_app/utils/phone_call.dart';
 
 class SubBHomeUI extends StatelessWidget {
   SubBHomeUI({super.key});
@@ -70,7 +71,8 @@ class SubBHomeUI extends StatelessWidget {
                             style: TextStyle(fontSize: 18),
                           ),
                           trailing: IconButton(
-                            onPressed: () {},
+                            onPressed: () =>
+                                launchPhoneCall(context, item.description),
                             icon: Icon(Icons.call, size: 30),
                           ),
                         ),

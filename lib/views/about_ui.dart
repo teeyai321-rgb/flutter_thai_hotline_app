@@ -47,19 +47,19 @@ class AboutUI extends StatelessWidget {
           Column(
             children: [
               Text(
-                'รหัสนักศึกษา : 6819410032',
+                'รหัสนักศึกษา : 6819410043',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),
               ),
               SizedBox(height: 22),
               Text(
-                'ชื่อ-นามสกุล : นาย พร้อมศักดิ์ รักษาสุข',
+                'ชื่อ-นามสกุล : นายกิตติพงศ์ ศรีชัย',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),
               ),
               SizedBox(height: 22),
               Text(
-                'อีเมล : s6819410032@sau.ac.th',
+                'อีเมล : s6819410043@sau.ac.th',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),
               ),

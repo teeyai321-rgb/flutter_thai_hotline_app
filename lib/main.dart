@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors_in_immutables
+
 import 'package:flutter/material.dart';
 import 'package:flutter_thai_hotline_app/views/splash_screen_ui.dart';
 import 'package:google_fonts/google_fonts.dart';

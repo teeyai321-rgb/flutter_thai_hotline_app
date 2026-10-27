@@ -1,5 +1,8 @@
+// ignore_for_file: prefer_const_constructors_in_immutables
+
 import 'package:flutter/material.dart';
 import 'package:flutter_thai_hotline_app/models/data_list.dart';
+import 'package:flutter_thai_hotline_app/utils/phone_call.dart';
 
 class SubCHomeUI extends StatelessWidget {
   SubCHomeUI({super.key});
@@ -70,7 +73,8 @@ class SubCHomeUI extends StatelessWidget {
                             style: TextStyle(fontSize: 18),
                           ),
                           trailing: IconButton(
-                            onPressed: () {},
+                            onPressed: () =>
+                                launchPhoneCall(context, item.description),
                             icon: Icon(Icons.call, size: 30),
                           ),
                         ),

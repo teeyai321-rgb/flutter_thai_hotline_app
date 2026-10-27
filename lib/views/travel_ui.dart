@@ -4,6 +4,7 @@ import 'package:flutter_thai_hotline_app/models/data_list.dart';
 import 'package:flutter_thai_hotline_app/views/emg_ui.dart';
 import 'package:flutter_thai_hotline_app/views/bank_ui.dart';
 import 'package:flutter_thai_hotline_app/views/pub_ui.dart';
+import 'package:flutter_thai_hotline_app/utils/phone_call.dart';
 
 class SubAHomeUI extends StatefulWidget {
   SubAHomeUI({super.key});
@@ -177,7 +178,8 @@ class SubAPageUI extends StatelessWidget {
                             style: TextStyle(fontSize: 18),
                           ),
                           trailing: IconButton(
-                            onPressed: () {},
+                            onPressed: () =>
+                                launchPhoneCall(context, item.description),
                             icon: Icon(Icons.call, size: 30),
                           ),
                         ),
